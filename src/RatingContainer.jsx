@@ -33,7 +33,7 @@ const RatingContainer = () => {
             </p>
             <RatingButtons handleRatingSelected={handleRatingChange} />
             <button
-              className="bg-orange-500 mx-auto block text-white enabled:hover:bg-orange-700 w-full rounded-full h-12 disabled:opacity-50 mt-4"
+              className="bg-orange-500 mx-auto block text-white enabled:hover:bg-white enabled:hover:text-orange-500 w-full rounded-full h-12 disabled:opacity-50 mt-4"
               onClick={handleSubmission}
               disabled={rating === ""}
             >
@@ -48,7 +48,7 @@ const RatingContainer = () => {
               alt="Clipart representing information being sent on a mobile device."
               className="mx-auto mb-4"
             />
-            <div className="bg-dark-blue text-orange-500 rounded-full w-1/2 h-8 flex justify-center items-center mx-auto mb-4">
+            <div className="bg-dark-blue text-orange-500 rounded-full w-full sm:w-2/3 md:w-1/2 h-8 flex justify-center items-center mx-auto mb-4">
               You selected {rating} out of 5
             </div>
             <h1 className="text-white text-2xl font-bold mb-4">Thank you!</h1>
