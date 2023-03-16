@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontendmentor.io](https://your-solution-url.com)
+- Solution URL: [Frontendmentor.io](https://www.frontendmentor.io/solutions/rating-component-with-react-and-tailwind-VPKWxhjNwI)
 - Live Site URL: [View on Vercel](https://interactive-rating-component-mai-soup.vercel.app/)
 
 ## My process
