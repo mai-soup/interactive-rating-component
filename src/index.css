@@ -12,3 +12,13 @@ html {
   height: 100vh;
   width: 100vw;
 }
+
+input:hover + label {
+  @apply bg-light-grey;
+  @apply text-white;
+}
+
+input:checked + label {
+  @apply bg-orange-500;
+  @apply text-white;
+}
